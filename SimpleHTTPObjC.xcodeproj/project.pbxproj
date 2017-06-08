@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56E80C9CCAF879DFE11F3C1D /* libPods-SimpleHTTPObjCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A57C96BDA30ED06D4962073F /* libPods-SimpleHTTPObjCTests.a */; };
+		5D1A2E2D97F182A3765385B0 /* libPods-SimpleHTTPObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56583CD4E4E8EC9624724CF8 /* libPods-SimpleHTTPObjC.a */; };
 		71097C691EBFAD65000131C1 /* SimpleHTTPObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71097C5F1EBFAD65000131C1 /* SimpleHTTPObjC.framework */; };
 		71097C6E1EBFAD65000131C1 /* SimpleHTTPObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71097C6D1EBFAD65000131C1 /* SimpleHTTPObjCTests.m */; };
 		71097C701EBFAD65000131C1 /* SimpleHTTPObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 71097C621EBFAD65000131C1 /* SimpleHTTPObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -14,7 +16,6 @@
 		71097C7E1EBFD3C9000131C1 /* SimpleHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 71097C7C1EBFD3C9000131C1 /* SimpleHTTP.m */; };
 		717615101EE777FC001FF271 /* SimpleHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7176150E1EE777FC001FF271 /* SimpleHTTPRequest.h */; };
 		717615111EE777FC001FF271 /* SimpleHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7176150F1EE777FC001FF271 /* SimpleHTTPRequest.m */; };
-		717615171EE7793B001FF271 /* SimpleHTTPUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 717615161EE7793B001FF271 /* SimpleHTTPUnitTest.m */; };
 		71771AC31EE805EA003C830B /* NSObject+ImageDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 71771AC11EE805EA003C830B /* NSObject+ImageDownload.h */; };
 		71771AC41EE805EA003C830B /* NSObject+ImageDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 71771AC21EE805EA003C830B /* NSObject+ImageDownload.m */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1335019FE78BD9BD7E0D269F /* Pods-SimpleHTTPObjCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleHTTPObjCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleHTTPObjCTests/Pods-SimpleHTTPObjCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AF332C1D9378D86D67E60EB /* Pods-SimpleHTTPObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleHTTPObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleHTTPObjC/Pods-SimpleHTTPObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		2D3784A7350EE540493B6513 /* Pods-SimpleHTTPObjCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleHTTPObjCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleHTTPObjCTests/Pods-SimpleHTTPObjCTests.release.xcconfig"; sourceTree = "<group>"; };
+		56583CD4E4E8EC9624724CF8 /* libPods-SimpleHTTPObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleHTTPObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71097C5F1EBFAD65000131C1 /* SimpleHTTPObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleHTTPObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71097C621EBFAD65000131C1 /* SimpleHTTPObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleHTTPObjC.h; sourceTree = "<group>"; };
 		71097C631EBFAD65000131C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,9 +45,10 @@
 		71097C7C1EBFD3C9000131C1 /* SimpleHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHTTP.m; sourceTree = "<group>"; };
 		7176150E1EE777FC001FF271 /* SimpleHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleHTTPRequest.h; sourceTree = "<group>"; };
 		7176150F1EE777FC001FF271 /* SimpleHTTPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleHTTPRequest.m; sourceTree = "<group>"; };
-		717615161EE7793B001FF271 /* SimpleHTTPUnitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleHTTPUnitTest.m; sourceTree = "<group>"; };
 		71771AC11EE805EA003C830B /* NSObject+ImageDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ImageDownload.h"; sourceTree = "<group>"; };
 		71771AC21EE805EA003C830B /* NSObject+ImageDownload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ImageDownload.m"; sourceTree = "<group>"; };
+		91E7C9D0CCBF71454B2A09B2 /* Pods-SimpleHTTPObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleHTTPObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleHTTPObjC/Pods-SimpleHTTPObjC.release.xcconfig"; sourceTree = "<group>"; };
+		A57C96BDA30ED06D4962073F /* libPods-SimpleHTTPObjCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleHTTPObjCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D1A2E2D97F182A3765385B0 /* libPods-SimpleHTTPObjC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,20 +65,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				71097C691EBFAD65000131C1 /* SimpleHTTPObjC.framework in Frameworks */,
+				56E80C9CCAF879DFE11F3C1D /* libPods-SimpleHTTPObjCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1513ED6CE5F08ECA84993E9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56583CD4E4E8EC9624724CF8 /* libPods-SimpleHTTPObjC.a */,
+				A57C96BDA30ED06D4962073F /* libPods-SimpleHTTPObjCTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C6669949853A6BBBF6B3CCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AF332C1D9378D86D67E60EB /* Pods-SimpleHTTPObjC.debug.xcconfig */,
+				91E7C9D0CCBF71454B2A09B2 /* Pods-SimpleHTTPObjC.release.xcconfig */,
+				1335019FE78BD9BD7E0D269F /* Pods-SimpleHTTPObjCTests.debug.xcconfig */,
+				2D3784A7350EE540493B6513 /* Pods-SimpleHTTPObjCTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		71097C551EBFAD65000131C1 = {
 			isa = PBXGroup;
 			children = (
-				717615151EE77924001FF271 /* Tests */,
 				717615141EE778FC001FF271 /* Sources */,
 				71097C611EBFAD65000131C1 /* SimpleHTTPObjC */,
 				71097C6C1EBFAD65000131C1 /* SimpleHTTPObjCTests */,
 				71097C601EBFAD65000131C1 /* Products */,
+				4C6669949853A6BBBF6B3CCF /* Pods */,
+				1513ED6CE5F08ECA84993E9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,14 +144,6 @@
 			name = Sources;
 			sourceTree = "<group>";
 		};
-		717615151EE77924001FF271 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				717615161EE7793B001FF271 /* SimpleHTTPUnitTest.m */,
-			);
-			name = Tests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -144,10 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71097C731EBFAD65000131C1 /* Build configuration list for PBXNativeTarget "SimpleHTTPObjC" */;
 			buildPhases = (
+				27CA2AD386A79A11433A9831 /* [CP] Check Pods Manifest.lock */,
 				71097C5A1EBFAD65000131C1 /* Sources */,
 				71097C5B1EBFAD65000131C1 /* Frameworks */,
 				71097C5C1EBFAD65000131C1 /* Headers */,
 				71097C5D1EBFAD65000131C1 /* Resources */,
+				D923658474A77D3AE71EB27A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71097C761EBFAD65000131C1 /* Build configuration list for PBXNativeTarget "SimpleHTTPObjCTests" */;
 			buildPhases = (
+				6E2A0F62EB4AC23B08790A2D /* [CP] Check Pods Manifest.lock */,
 				71097C641EBFAD65000131C1 /* Sources */,
 				71097C651EBFAD65000131C1 /* Frameworks */,
 				71097C661EBFAD65000131C1 /* Resources */,
+				E5BAEC62B94860024C67CBD4 /* [CP] Embed Pods Frameworks */,
+				537EDEC91CAEA95911C73CF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +258,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27CA2AD386A79A11433A9831 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		537EDEC91CAEA95911C73CF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleHTTPObjCTests/Pods-SimpleHTTPObjCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E2A0F62EB4AC23B08790A2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D923658474A77D3AE71EB27A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleHTTPObjC/Pods-SimpleHTTPObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5BAEC62B94860024C67CBD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleHTTPObjCTests/Pods-SimpleHTTPObjCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		71097C5A1EBFAD65000131C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -248,7 +352,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				71097C6E1EBFAD65000131C1 /* SimpleHTTPObjCTests.m in Sources */,
-				717615171EE7793B001FF271 /* SimpleHTTPUnitTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +466,7 @@
 		};
 		71097C741EBFAD65000131C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF332C1D9378D86D67E60EB /* Pods-SimpleHTTPObjC.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -381,6 +485,7 @@
 		};
 		71097C751EBFAD65000131C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E7C9D0CCBF71454B2A09B2 /* Pods-SimpleHTTPObjC.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -399,6 +504,7 @@
 		};
 		71097C771EBFAD65000131C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1335019FE78BD9BD7E0D269F /* Pods-SimpleHTTPObjCTests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 2NT5QR24SX;
 				INFOPLIST_FILE = SimpleHTTPObjCTests/Info.plist;
@@ -410,6 +516,7 @@
 		};
 		71097C781EBFAD65000131C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3784A7350EE540493B6513 /* Pods-SimpleHTTPObjCTests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 2NT5QR24SX;
 				INFOPLIST_FILE = SimpleHTTPObjCTests/Info.plist;
