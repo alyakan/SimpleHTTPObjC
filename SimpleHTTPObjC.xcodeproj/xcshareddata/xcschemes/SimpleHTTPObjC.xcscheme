@@ -14,6 +14,48 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0A578B91EB23BBD0EB78884A6FCB29D9"
+               BuildableName = "libOHHTTPStubs.a"
+               BlueprintName = "OHHTTPStubs"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9871B8F2BC1F34EE73AE89EA3195B772"
+               BuildableName = "libPods-SimpleHTTPObjC.a"
+               BlueprintName = "Pods-SimpleHTTPObjC"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FDFFD13BB9D80267555C9F1B97D3724F"
+               BuildableName = "libPods-SimpleHTTPObjCTests.a"
+               BlueprintName = "Pods-SimpleHTTPObjCTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "71097C5E1EBFAD65000131C1"
                BuildableName = "SimpleHTTPObjC.framework"
                BlueprintName = "SimpleHTTPObjC"

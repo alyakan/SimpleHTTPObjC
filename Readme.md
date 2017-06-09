@@ -1,1 +1,0 @@
-[![CircleCI](https://circleci.com/gh/alyakan/SimpleHttpObjC.svg?style=svg)](https://circleci.com/gh/alyakan/SimpleHttpObjC)
