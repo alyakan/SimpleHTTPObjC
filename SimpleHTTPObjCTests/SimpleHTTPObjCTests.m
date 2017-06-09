@@ -41,9 +41,7 @@
     [[self parameters] setObject:@[@"I love you man"] forKey:@"movies"];
     
     _stubURL = [[NSURL alloc] initWithString:@"https://www.mywebservice.com"];
-    _baseUrl = @"https://reqres.in/api/";
-    _url = [NSURL URLWithString:_baseUrl];
-    _simpleRequest = [[SimpleHTTPRequest alloc] initWithURL:_url andMethod:GET andParams:_parameters];
+    _simpleRequest = [[SimpleHTTPRequest alloc] initWithURL:_stubURL andMethod:GET andParams:_parameters];
 }
 
 - (void)myTearDown {
@@ -67,11 +65,14 @@
 }
 
 - (void)testImageDownload {
+    if (![self isSetUp]) {
+        [self mySetUp];
+    }
     UIImageView *imageView = [[UIImageView alloc] init];
-    NSURL *downloadURL = [NSURL URLWithString:@"http://www.google.com/images/logos/ps_logo2.png"];
-    XCTestExpectation *exp = [self expectationWithDescription:@"should execute get request with status code 200"];
-    [imageView setImageWithURL:downloadURL completionHandler:^(NSError * _Nullable error) {
+    XCTestExpectation *exp = [self expectationWithDescription:@"should execute download request with status code 200"];
+    [imageView setImageWithURL:_stubURL completionHandler:^(NSError * _Nullable error) {
         [exp fulfill];
+        [self myTearDown];
     }];
     
     [self waitForExpectationsWithTimeout:10 handler:nil];
