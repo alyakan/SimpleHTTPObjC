@@ -1,5 +1,5 @@
 language: objective-c
-xcode_workspace: SimpleHTTPObjC.xcworkspace # path to your xcodeproj folder
+xcode_workspace: SimpleHTTPObjC.xcodeproj # path to your xcodeproj folder
 xcode_scheme: SimpleHTTPObjCTests
 os: osx
 osx_image: xcode8.3
