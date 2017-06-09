@@ -23,7 +23,6 @@ typedef enum {
 @property(nonatomic, copy) NSDictionary *parameters;
 
 - (instancetype)initWithURL:(NSURL*)url andMethod:(HTTPMethod)method andParams:(NSDictionary*) parameters;
-- (NSString*)formatMethodToString:(HTTPMethod)method;
 
 @end
 
